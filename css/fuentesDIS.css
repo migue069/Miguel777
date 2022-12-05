@@ -1,5 +1,5 @@
  body{
-    background-image: url("../Miguel69/imagenes/LSD.pnj.jpg");
+    background-image: url("../imagenes/Disney.jpg");
     background-size: cover;
  }
  .box-1{
@@ -16,5 +16,5 @@
  }
  @font-face {
     font-family: waltographui;
-    src: url("../Miguel69/fonts/waltographUI.ttf");
+    src: url("../fonts/waltograph42.otf");
  }

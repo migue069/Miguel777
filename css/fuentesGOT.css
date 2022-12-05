@@ -1,6 +1,6 @@
 body{
-    background-image: url("../Miguel69/imagenes/GOT.pnj.jpg");
-    background-size: auto;
+    background-image: url("../imagenes/GOT.pnj.jpg");
+    background-size: cover;
 } 
  .box-1{
     display: flex;
