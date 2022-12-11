@@ -1,23 +1,112 @@
- .box-1{
-    width: 300px;
-    height: 300px;
-    background-color: black;
-    border: 5px solid blue;
+body{
+      background-color: white;
+}
+ .contenefor{
+      display: flex;
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 200px;
+      padding-top: 100px;
+      font-size: 16px;
  }
- .parr-style {
-    font-size: 2.5em;
-    margin: 100px;
+  .box1{
+      width: 200px;
+      height: 200px;
+      background-color: #f4f4f4;
+      background-size: cover;
+      margin-left: 50px;
+      border: 7px solid black;
+      padding: 14px;
+  }
+  .box2{
+    width: 200px;
+    height: 200px;
+    background-color: #a4a4a4;
+    background-size: cover;
+    margin-top: 70px;
+    border: 7px dotted yellow;
+    padding: 14px;
+  }  
+  .box3{
+    width: 200px;
+    height: 200px;
+    background-color: #94cd94;
+    background-size: cover;
+    margin-left: 70px;
+    border: 7px dashed red;
+    padding: 14px;
+  }  
+  .box4{
+    width: 200px;
+    height: 200px;
+    background-color: #fac278;
+    background-size: cover;
+    margin-left: 70px;
+    border: 7px double rgb(140, 249, 46);
+    padding: 14;
+  }
+  .box5{
+    width: 200px;
+    height: 200px;
+    background-color: #fac443;
+    background-size: cover;
+    margin-left: 50px;
+    border: 7px groove orangered;
+    padding: 14px;
+  }
+  .textogeneral{
     text-align: justify;
-    border: 1px solid rgb,(rgb(52, 46, 31));
- }
- .parr-padding {
-   padding: 0 150px;
-   border-radius: 30px;
- }
- .box-2 {
-   width: 500px;
-   height: 500px;
-   border-radius: 500px;
-   background-color: aqua;
-   margin-left: 200px;
- }
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+  .texto1{
+    width: 1105px;
+    height: 200px;
+    margin-left: 390px;
+    border: 5px solid green;
+    background-size: cover;
+    background-color: #f5eba0;
+    padding: 20px;
+  }
+  .texto2{
+    width: 1105px;
+    height: 200px;
+    margin-left: 390px;
+    border: 5px solid green;
+    background-size: cover;
+    background-color: #f5eba0;
+    padding: 20px;
+  }
+  .texto3{
+    width: 1105px;
+    height: 200px;
+    margin-left: 390px;
+    border: 5px solid green;
+    background-size: cover;
+    background-color: #f5eba0;
+    padding: 20px;
+  }
+  .texto4{
+    width: 1105px;
+    height: 200px;
+    margin-left: 390px;
+    border: 5px solid green;
+    background-size: cover;
+    background-color: #f5eba0;
+    padding: 20px;
+  }
+  .bola{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 450px;
+    color: indigo;
+    margin-left: 700px;
+    border-radius: 500px 500px 500px 500px;
+    background-size: cover;
+    background-color: crimson;
+    border: 10px solid burlywood;
+  }
