@@ -1,20 +1,17 @@
 body{
-      background-color: white;
+      background-color: rgb(239, 163, 163);
 }
- .contenefor{
+ .contenedorg{
       display: flex;
       text-align: justify;
       font-family: Arial, Helvetica, sans-serif;
-      padding-left: 200px;
-      padding-top: 100px;
-      font-size: 16px;
  }
   .box1{
       width: 200px;
       height: 200px;
       background-color: #f4f4f4;
       background-size: cover;
-      margin-left: 50px;
+      margin: 50px;
       border: 7px solid black;
       padding: 14px;
   }
@@ -23,7 +20,7 @@ body{
     height: 200px;
     background-color: #a4a4a4;
     background-size: cover;
-    margin-top: 70px;
+    margin: 50px;
     border: 7px dotted yellow;
     padding: 14px;
   }  
@@ -32,7 +29,7 @@ body{
     height: 200px;
     background-color: #94cd94;
     background-size: cover;
-    margin-left: 70px;
+    margin: 50px;
     border: 7px dashed red;
     padding: 14px;
   }  
@@ -41,16 +38,16 @@ body{
     height: 200px;
     background-color: #fac278;
     background-size: cover;
-    margin-left: 70px;
+    margin: 50px;
     border: 7px double rgb(140, 249, 46);
-    padding: 14;
+    padding: 14px;
   }
   .box5{
     width: 200px;
     height: 200px;
     background-color: #fac443;
     background-size: cover;
-    margin-left: 50px;
+    margin: 50px;
     border: 7px groove orangered;
     padding: 14px;
   }
@@ -59,11 +56,12 @@ body{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+    margin: 50px;
   }
   .texto1{
     width: 1105px;
     height: 200px;
-    margin-left: 390px;
+    margin: 50px;
     border: 5px solid green;
     background-size: cover;
     background-color: #f5eba0;
@@ -72,8 +70,8 @@ body{
   .texto2{
     width: 1105px;
     height: 200px;
-    margin-left: 390px;
-    border: 5px solid green;
+    margin: 50px;
+    border: 7px solid green;
     background-size: cover;
     background-color: #f5eba0;
     padding: 20px;
@@ -81,8 +79,8 @@ body{
   .texto3{
     width: 1105px;
     height: 200px;
-    margin-left: 390px;
-    border: 5px solid green;
+    margin: 50px;
+    border: 7px solid green;
     background-size: cover;
     background-color: #f5eba0;
     padding: 20px;
@@ -90,8 +88,8 @@ body{
   .texto4{
     width: 1105px;
     height: 200px;
-    margin-left: 390px;
-    border: 5px solid green;
+    margin: 50px;
+    border: 7px solid green;
     background-size: cover;
     background-color: #f5eba0;
     padding: 20px;
@@ -104,7 +102,7 @@ body{
     font-size: 20px;
     line-height: 450px;
     color: indigo;
-    margin-left: 700px;
+    margin: 50px;
     border-radius: 500px 500px 500px 500px;
     background-size: cover;
     background-color: crimson;
