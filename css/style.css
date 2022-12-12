@@ -1,19 +1,13 @@
-/*Estilo utilizando elementos html*/
-h1 {
-    /*propiedades*/
-    text-align: center;
-    color: rgba(132, 235, 163)
+body{
+    background-image: url("https://i.pinimg.com/originals/82/44/21/824421e579605dac288685cbd32fd3aa.jpg");
+    background-size: cover;
 }
-h2 {
-    /*propiedades*/
-    text-align: center;
-    color: rgb(101, 180, 233)
+.ct2{
+    color: chartreuse;
 }
-.fuente-especial {
-    /*propiedades*/
-    text-align: left;
-    color: rgb(241, 31, 31)
+.ct2{
+    color: darkcyan;
 }
-li.fuente-especial {
-    color: #1f618D
+.ct2{
+    color: aquamarine;
 }
