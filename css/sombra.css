@@ -1,0 +1,57 @@
+body{
+    background-image: url(../imagenes/sombra.jfif);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    flex-direction: column;
+}
+
+.caja1, .caja2, .caja3, .caja4{
+    flex-wrap: wrap;
+}
+
+.box-1{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 20px 20px rgb(185, 58, 27);
+    background-color: blanchedalmond;
+    border-radius: 5px;
+
+}
+.box-2{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 15px 15px 8px 7px rgb(55, 109, 209);
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.box-3{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 15px 15px 8px 8px rgb(199, 195, 194 )inset;
+    background-color: crimson;
+    border-radius: 5px;
+}
+.box-4{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: darkcyan;
+    border-radius: 5px;
+}
+.box-4:hover{
+    box-shadow: 5px 5px 5px rgb(199, 195, 194 ), -5px 0 5px rgb(199, 195, 194 )
+}
+
+
