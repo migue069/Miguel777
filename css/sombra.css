@@ -49,6 +49,7 @@ div{
     margin: 20px;
     background-color: darkcyan;
     border-radius: 5px;
+    box-shadow: 10px 15px 6px;
 }
 .box-5{
     width: 300px;
@@ -56,6 +57,7 @@ div{
     margin: 20px;
     background-color: brown;
     border-radius: 5px;
+    box-shadow: 15px 15px 30px;
 }
 .box-6{
     width: 300px;
