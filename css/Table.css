@@ -17,7 +17,7 @@ th {
 }
 
 th {
-    background-color: rgb(180, 213, 243);
+    background-color: rgb(129, 204, 182);
     font-weight: 900;
 }
 
@@ -57,7 +57,7 @@ nav {
 }
 
 nav ul li a:hover {
-    background-color: rgba(179, 184, 184, 0.432);
+    background-color: rgba(140, 148, 148, 0.432);
     padding: 9px;
     border-radius: 4px;
 
