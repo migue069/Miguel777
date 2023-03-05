@@ -1,73 +1,55 @@
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
 .form-box{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 }
 form{
-    border: 1px solid black;
-    width: 500px;
-    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: rgb(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
 }
 legend{
     background-color: rgb(143, 181, 240);
     color: white;
     height: 50px;
     text-align: center;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .legend-text{
-    padding: 20px;
-    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
-label{
-    display: block;
-    color: black;
-    margin-top: 20px;
-}
-label, input, textarea{
-    margin-left: 25px;
-}
-textarea{
+.nose, textarea{
+    margin-bottom: 20px;
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid black;
     resize: none;
 }
-.texto-genero{
-    color:rgb(27, 23, 23);
-
+textarea{
+    border: 1px solid black;
 }
-input[type="submit"]{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-    width: 500px;
-    background-color: rgb(71, 158, 230);
-    color: aliceblue;
-    text-align: center;
-    font-size: 1.3em;
+input[type ="summit"]{
+    background-color: rgb(71, 156, 195);
+    color: white;
     border: none;
-    border-radius: 10px;
-    margin-left: 0;
+    border-radius: 15px;
+    padding: 5px;
+    width: 20%;    
 }
-.btn-enviar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-input[type="text"]:focus{
-    border: 0;
-    border-bottom: 1px solid black;
-    background-color: rgba(240, 234, 207, 0.733);
-}
-.select-style{
-    padding: 10px;
-    border-radius: 4px;
-    color: rgb(48, 47, 47);
-    cursor: pointer;
-}
-.select-style:focus{
-    outline: none;
-
-}
-select option{
-    padding: 20px;
-    margin: 20px;
+.genero, .aerolineas, .destino{
+    width: 70%;
 }
