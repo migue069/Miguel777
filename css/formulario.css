@@ -15,7 +15,7 @@ h1{
 form{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
     box-shadow: rgb(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 10px;
     align-items: center;
