@@ -12,7 +12,7 @@ nav >ul{
 }
 nav >ul >li{
     float: left;
-    line-height: 70px;
+    line-height: 110px;
 }
 nav li{
     width: 320px;
