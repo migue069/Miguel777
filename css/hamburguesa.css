@@ -6,13 +6,13 @@
 
 nav >ul{
     list-style: none;
-    background-color: rgb(7, 7, 7);
+    background-color: darkcyan;
     position: absolute;
     width: 100%;
 }
 nav >ul >li{
     float: left;
-    line-height: 110px;
+    line-height: 70px;
 }
 nav li{
     width: 320px;
@@ -36,7 +36,7 @@ nav li li{
 nav li:hover >ul >Li{
     visibility: visible;
     max-height: 500px;
-    background-color: rgb(11, 12, 12);
+    background-color: darkcyan;
     display: block;
 }
 
