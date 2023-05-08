@@ -78,7 +78,7 @@ button{
 }
 button:hover{
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(218, 189, 109, 0.729);
 }
 
 form{
