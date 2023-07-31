@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    height: 80px;
+}
+body{
+    background-color:  rgb(50, 49, 49);
+}
+
+
+.img-articulo {
+    color: white; /* Color del texto dentro del contenedor (puede ignorarse si no se usa) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(139, 181, 252); /* Establece el borde blanco */
+    border-radius: 20px; /* Borde redondeado con radio de 20px */
+    width: 400px; /* Ajusta el tamaño del contenedor según tus necesidades */
+    height: 300px;
+    /* Otras propiedades, como background-image, background-size, etc. si es necesario */
+  }
+  
+
+
+
+  .main-img-box {
+    background-image: url("../imagenes/paramount.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.2em;
+    font-weight: 900;
+    border: 2px solid rgb(179, 69, 238); /* Agrega un borde blanco de 2px alrededor del elemento */
+    border-radius: 20px; /* Borde redondeado con radio de 20px */
+}
+
+.articulo-box{
+    margin-top: 30px;
+    width: 100%;
+    display: grid;
+    gap: 70px;
+    grid-template:" empty-izq articulo1 articulo2 articulo3  empty-der " auto
+                  " empty-izq articulo4 articulo5 articulo6  empty-der " auto /
+                    1fr         420px    420px      420px        1fr ;
+
+}
+.articulo1{
+  grid-area: articulo1;
+  border-radius: 15px;
+}
+
+.articulo1 .img-articulo{
+    background-image: url(../imagenes/john_wick1.jpg);
+    background-size: cover;
+}
+
+.articulo2 .img-articulo {
+    background-image: url(../imagenes/xdxd.jpg);
+    background-size: cover;
+}
+.articulo3 .img-articulo {
+    background-image: url(../imagenes/dejenero.webp);
+    background-size: cover;
+}
+
+.articulo4 .img-articulo {
+    background-image: url(../imagenes/blue.jpg);
+    background-size: cover;
+}
+
+.articulo5 .img-articulo {
+    background-image: url(../imagenes/enter.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.articulo6 .img-articulo {
+    background-image: url(../imagenes/requiem.jpg);
+    
+    background-size: cover;
+}
+
+.articulo2{
+    grid-area: articulo2;
+ 
+ 
+
+
+}
+.articulo3{
+      grid-area: articulo3;
+     
+    
+
+}
+.articulo4{
+    grid-area: articulo4;
+
+  
+  }
+  .articulo5{
+      grid-area: articulo5;
+  
+   
+  
+  
+  }
+  .articulo6{
+        grid-area: articulo6;
+ 
+  
+  }
+.img-articulo{
+  
+    width: 100%;
+    height: 300px;
+
+}
+.text-content{
+    color: rgb(102, 235, 245);
+    font-size: 1.2em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1560px) {
+    .articulo-box {
+      gap: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 1350px) {
+    .articulo-box {
+      gap: 30px;
+      grid-template:
+        "empty-izq articulo1 articulo2 articulo3 empty-der" auto
+        "empty-izq articulo4 articulo5 articulo6 empty-der" auto /
+        1fr 400px 400px 400px 1fr;
+    }
+    .img-articulo {
+      height: 286px;
+    }
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .articulo-box {
+      gap: 80px;
+      grid-template:
+        "empty-izq articulo1 articulo2 empty-der" auto
+        "empty-izq articulo3 articulo4 empty-der" auto
+        "empty-izq articulo5 articulo6 empty-der" auto /
+        1fr 420px 420px 1fr;
+    }
+    .img-articulo {
+      height: 300px;
+    }
+  }
+  
+  @media only screen and (max-width: 1050px) {
+    .articulo-box {
+      gap: 60px;
+      grid-template:
+        "empty-izq articulo1 empty-der" auto
+        "empty-izq articulo2 empty-der" auto
+        "empty-izq articulo3 empty-der" auto
+        "empty-izq articulo4 empty-der" auto
+        "empty-izq articulo5 empty-der" auto
+        "empty-izq articulo6 empty-der" auto /
+        1fr 450px 1fr;
+    }
+    .img-articulo {
+      height: 360px;
+    }
+  }
+  
+  @media only screen and (max-width: 760px) {
+    .articulo-box {
+      gap: 40px;
+      grid-template:
+        "empty-izq articulo1 empty-der" auto
+        "empty-izq articulo2 empty-der" auto
+        "empty-izq articulo3 empty-der" auto
+        "empty-izq articulo4 empty-der" auto
+        "empty-izq articulo5 empty-der" auto
+        "empty-izq articulo6 empty-der" auto /
+        1fr 320px 1fr;
+    }
+    .img-articulo {
+      height: 240px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .articulo-box {
+      gap: 20px;
+      grid-template:
+        "empty-izq articulo1 empty-der" auto
+        "empty-izq articulo2 empty-der" auto
+        "empty-izq articulo3 empty-der" auto
+        "empty-izq articulo4 empty-der" auto
+        "empty-izq articulo5 empty-der" auto
+        "empty-izq articulo6 empty-der" auto /
+        1fr;
+      justify-items: center;
+    }
+    .img-articulo {
+      height: 180px;
+    }
+  }

@@ -46,39 +46,48 @@ nav ul li a:hover {
 }
 
 .img-principal {
-    background-color: darkcyan;
+    background-image: url("../imagenes/paramount.jpg");
+    background-size: cover;
     grid-area: img-principal;
     border: 2px solid black;
 }
 
 .img1 {
-    background-color: rgb(64, 64, 64);
+    background-image: url("../imagenes/jick01.jpg");
+    background-size: cover;
     grid-area: img1;
     border: 2px solid black;
+    text-align: center;
 }
 
 .img2 {
-    background-color: rgb(64, 64, 64);
+    background-image: url("../imagenes/toget.jpg");
+    background-size: cover;
     grid-area: img2;
     border: 2px solid black;
+    text-align: center;
 }
 
 .img3 {
-    background-color: rgb(64, 64, 64);
+    background-image: url("../imagenes/american.jpg");
+    background-size: cover;
     grid-area: img3;
     border: 2px solid black;
 }
 
 .texto1 {
     grid-area: texto1;
+    text-align: center;
 }
 
 .texto2 {
     grid-area: texto2;
+    text-align: center;
 }
 
 .texto3 {
     grid-area: texto3;
+    text-align: center;
 }
 
 .img-principal,
@@ -144,7 +153,7 @@ nav ul li a:hover {
             350px;
     }
 }
-=======
+
 *{
     padding: 0%;
     margin: 0%;
@@ -227,4 +236,3 @@ nav{
                           1fr      420px     1fr;
     }   
 }
->>>>>>> b36199d02ceb1f7f4c2fb143bb49e504e9ecd627
