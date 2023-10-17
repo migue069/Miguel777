@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box-subtotal{
+    grid-area: subtotal;
+}
+.btn-pago-producto{
+    grid-area: btn-pago-producto;
+
+}
+.img-productos{
+    grid-area: img-prodcuto;
+}
+.info-producto{
+    grid-area: info-producto;
+}
+@media only screen and (main-width: 480px) and (max-width: 835px){
+    .main-box{
+        width: 100px;
+        height: 800px;
+        background-color: rgb(71, 0, 237);
+        grid-template: "subtotal                subtotal"50px
+                        "btn-pago-productos     btn-pago-productos"70px
+                        "img-productos          info-producto"300px;          
+    }
+}
